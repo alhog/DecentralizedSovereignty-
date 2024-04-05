@@ -30,7 +30,8 @@ In an increasingly interconnected world, the ability to share and collaborate on
    3.7. Incentivization and Tokenization
 
 4. Technical Details
-   4.1. Modular Blockchain Options
+
+    4.1. Modular Blockchain Options
       4.1.1. Celestia and Sovereign Rollups
       4.1.2. Kadena and Threaded Blockchain Architecture
       4.1.3. Comparison and Trade-offs
@@ -62,7 +63,9 @@ In an increasingly interconnected world, the ability to share and collaborate on
       4.7.1. Blockchain-based Tokens and Cryptocurrencies
       4.7.2. Token-based Incentive Mechanisms
       4.7.3. Comparison and Trade-offs
+
 6. Implementation Roadmap
+
 7. Conclusion
 
 (The sections below will provide detailed content for each section outlined in the table of contents)
