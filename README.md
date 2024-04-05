@@ -1,4 +1,4 @@
-# Decentralized Sovereignty
+# Decentralized Sovereignty 
 
 ### Decentralized Sovereign Stacks 
 
@@ -69,7 +69,8 @@ In an increasingly interconnected world, the ability to share and collaborate on
 
 7. Conclusion
 
-(The sections below will provide detailed content for each section outlined in the table of contents)
+$$ H = \sum_{i}^{N} \frac{1}{2} \hbar \omega_i \sigma_z^{(i)} + \sum_{i<j}^{N} J_{ij} \sigma_x^{(i)} \sigma_x^{(j)} $$
+
 
 1. Introduction
    - Provide an overview of the importance of data sharing and collaboration across jurisdictions
