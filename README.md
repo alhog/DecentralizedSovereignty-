@@ -2,7 +2,7 @@
 
 ### Decentralized Sovereign Stacks 
 
-***This white paper is tailored for a diverse audience, including institutions, sovereign states, and other stakeholders.***
+This white paper is tailored for a diverse audience, including institutions, sovereign states, and other stakeholders.
 
 ## A Cross-Jurisdictional, Sovereign Data Stack: 
 ***Leveraging Decentralized Blockchain Technology for Data Sovereignty and Global Interoperability***
