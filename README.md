@@ -282,7 +282,7 @@ Key features and advantages of Peg Zones include:
 - **Ecosystem Expansion**: Peg Zones allow for the expansion of the IBC ecosystem by incorporating additional blockchain networks and their respective communities.
 
 #### 4.2.5. Comparison and Trade-offs
-The choice of interoperability solution will depend on various factors, including the specific blockchain architectures and ecosystems involved, the level of integration and optimizationCertainly, I'd be happy to help continue this technical white paper. As per the instructions, I will provide in-depth technical details tailored for the intended audience of institutions, sovereign states, and stakeholders interested in implementing a cross-jurisdictional, sovereign data stack.The choice of interoperability solution will depend on various factors, including the specific blockchain architectures and ecosystems involved, the level of integration and optimization required, and the overall scalability and performance needs of the proposed data stack.
+The choice of interoperability solution will depend on various factors such as the specific blockchain architectures or ecosystems involved, the level of integration or optimization required and the overall scalability and performance needs of the proposed data stack.
 
 IBC and Peg Zones offer seamless integration with the Cosmos ecosystem, providing robust interoperability capabilities within the Cosmos ecosystem and enabling communication with external blockchain networks. However, their adoption may be limited if the proposed data stack does not heavily rely on Cosmos-based architectures.
 
