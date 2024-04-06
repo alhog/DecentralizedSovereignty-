@@ -10,64 +10,55 @@ This white paper is tailored for a diverse audience, including institutions, sov
 ### Abstract:
 In an increasingly interconnected world, the ability to share and collaborate on data across jurisdictions while maintaining data sovereignty and regulatory compliance is of paramount importance. This white paper presents a novel architecture for a cross-jurisdictional, sovereign data stack that leverages decentralized blockchain technology to enable secure, transparent, and interoperable data sharing and processing. By combining modular blockchain architectures, hybrid public-private blockchain approaches, and advanced interoperability solutions, this proposed system aims to empower organizations and jurisdictions to maintain control over their data while facilitating global collaboration and data-driven insights.
 
-### Table of Contents:
+### Table of Contents
 
-1. Introduction
-2. Challenges and Motivations
-3. Architectural Overview
+1. [Introduction](#1-introduction)
+2. [Challenges and Motivations](#2-challenges-and-motivations)
+3. [Architectural Overview](#3-architectural-overview)
+   3.1. [Modular Blockchain Layer](#31-modular-blockchain-layer)
+   3.2. [Hybrid Public-Private Blockchain Approach](#32-hybrid-public-private-blockchain-approach)
+   3.3. [Interoperability and Cross-Chain Communication](#33-interoperability-and-cross-chain-communication)
+   3.4. [Decentralized Orchestration and Monitoring](#34-decentralized-orchestration-and-monitoring)
+   3.5. [Decentralized Storage and Computation](#35-decentralized-storage-and-computation)
+   3.6. [Identity and Access Management](#36-identity-and-access-management)
+   3.7. [Incentivization and Tokenization](#37-incentivization-and-tokenization)
 
-   3.1. Modular Blockchain Layer
+4. [Technical Details](#4-technical-details)
+   4.1. [Modular Blockchain Options](#41-modular-blockchain-options)
+     4.1.1. [Celestia and Sovereign Rollups](#411-celestia-and-sovereign-rollups)
+     4.1.2. [Kadena and Threaded Blockchain Architecture](#412-kadena-and-threaded-blockchain-architecture)
+     4.1.3. [Comparison and Trade-offs](#413-comparison-and-trade-offs)
+   4.2. [Interoperability Solutions](#42-interoperability-solutions)
+     4.2.1. [Inter-Blockchain Communication (IBC)](#421-inter-blockchain-communication-ibc)
+     4.2.2. [Hermes Middleware](#422-hermes-middleware)
+     4.2.3. [Polkadot's XCMP](#423-polkadots-xcmp)
+     4.2.4. [Cosmos Hub's Peg Zones](#424-cosmos-hubs-peg-zones)
+     4.2.5. [Comparison and Trade-offs](#425-comparison-and-trade-offs)
+   4.3. [Hybrid Blockchain Approaches](#43-hybrid-blockchain-approaches)
+     4.3.1. [Public-Private Blockchain Integration](#431-public-private-blockchain-integration)
+     4.3.2. [Cross-Chain Bridges and Relay Mechanisms](#432-cross-chain-bridges-and-relay-mechanisms)
+     4.3.3. [Trusted Execution Environments](#433-trusted-execution-environments)
+     4.3.4. [Comparison and Trade-offs](#434-comparison-and-trade-offs)
+   4.4. [Decentralized Orchestration and Monitoring](#44-decentralized-orchestration-and-monitoring)
+     4.4.1. [Apache Airflow](#441-apache-airflow)
+     4.4.2. [Kubernetes and Nomad](#442-kubernetes-and-nomad)
+     4.4.3. [Prometheus and Cortex](#443-prometheus-and-cortex)
+     4.4.4. [Comparison and Trade-offs](#444-comparison-and-trade-offs)
+   4.5. [Decentralized Storage and Computation](#45-decentralized-storage-and-computation)
+     4.5.1. [IPFS and Filecoin](#451-ipfs-and-filecoin)
+     4.5.2. [Golem and SONM](#452-golem-and-sonm)
+     4.5.3. [Comparison and Trade-offs](#453-comparison-and-trade-offs)
+   4.6. [Identity and Access Management](#46-identity-and-access-management)
+     4.6.1. [Self-Sovereign Identity (SSI) Frameworks](#461-self-sovereign-identity-ssi-frameworks)
+     4.6.2. [Ethereum's ERC-725](#462-ethereums-erc-725)
+     4.6.3. [Comparison and Trade-offs](#463-comparison-and-trade-offs)
+   4.7. [Incentivization and Tokenization](#47-incentivization-and-tokenization)
+     4.7.1. [Blockchain-based Tokens and Cryptocurrencies](#471-blockchain-based-tokens-and-cryptocurrencies)
+     4.7.2. [Token-based Incentive Mechanisms](#472-token-based-incentive-mechanisms)
+     4.7.3. [Comparison and Trade-offs](#473-comparison-and-trade-offs)
 
-   3.2. Hybrid Public-Private Blockchain Approach
-
-   3.3. Interoperability and Cross-Chain Communication
-
-   3.4. Decentralized Orchestration and Monitoring
-
-   3.5. Decentralized Storage and Computation
-
-   3.6. Identity and Access Management
-
-   3.7. Incentivization and Tokenization
-
-4. Technical Details
-
-    4.1. Modular Blockchain Options
-      4.1.1. Celestia and Sovereign Rollups
-      4.1.2. Kadena and Threaded Blockchain Architecture
-      4.1.3. Comparison and Trade-offs
-   4.2. Interoperability Solutions
-      4.2.1. Inter-Blockchain Communication (IBC)
-      4.2.2. Hermes Middleware
-      4.2.3. Polkadot's XCMP
-      4.2.4. Cosmos Hub's Peg Zones
-      4.2.5. Comparison and Trade-offs
-   4.3. Hybrid Blockchain Approaches
-      4.3.1. Public-Private Blockchain Integration
-      4.3.2. Cross-Chain Bridges and Relay Mechanisms
-      4.3.3. Trusted Execution Environments
-      4.3.4. Comparison and Trade-offs
-   4.4. Decentralized Orchestration and Monitoring
-      4.4.1. Apache Airflow
-      4.4.2. Kubernetes and Nomad
-      4.4.3. Prometheus and Cortex
-      4.4.4. Comparison and Trade-offs
-   4.5. Decentralized Storage and Computation
-      4.5.1. IPFS and Filecoin
-      4.5.2. Golem and SONM
-      4.5.3. Comparison and Trade-offs
-   4.6. Identity and Access Management
-      4.6.1. Self-Sovereign Identity (SSI) Frameworks
-      4.6.2. Ethereum's ERC-725
-      4.6.3. Comparison and Trade-offs
-   4.7. Incentivization and Tokenization
-      4.7.1. Blockchain-based Tokens and Cryptocurrencies
-      4.7.2. Token-based Incentive Mechanisms
-      4.7.3. Comparison and Trade-offs
-
-6. Implementation Roadmap
-
-7. Conclusion
+5. [Implementation Roadmap](#5-implementation-roadmap)
+6. [Conclusion](#7-conclusion)
 
 ## 1. Introduction
    - Provide an overview of the importance of data sharing and collaboration across jurisdictions
