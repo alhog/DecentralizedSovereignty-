@@ -61,9 +61,9 @@ In an increasingly interconnected world, the ability to share and collaborate on
 6. [Conclusion](#7-conclusion)
 
 ##  ***1. Introduction***
-   ***- Provide an overview of the importance of data sharing and collaboration across jurisdictions***
-   ***- Highlight the challenges of maintaining data sovereignty and regulatory compliance***
-   ***- Introduce the concept of leveraging decentralized blockchain technology for a cross-jurisdictional data stack***
+   - Provide an overview of the importance of data sharing and collaboration across jurisdictions
+   - Highlight the challenges of maintaining data sovereignty and regulatory compliance
+   - Introduce the concept of leveraging decentralized blockchain technology for a cross-jurisdictional data stack
 
 
 #### 1. Introduction
